@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(./3051696.png);
+    background-size: contain;
+    overflow: hidden;
+}
+#main img{
+    height: 80px;
+    margin: 44px;
+
+}
+#main #nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 40%;
+    font-size: 13px;
+    margin: -120px 824px;
+}
+#main #nav h3{
+    font-weight: 500;
+}
+
+#left{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 10%;
+    /* background-color: red; */
+    margin-top: 330px;
+    margin-left: 105px;
+}
+#left h1{
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+#left i{
+    background-color: gray;
+    border-radius: 100%;
+    padding: 7px 8px;
+    margin-top: 10px;
+}
+#main>h1{
+    position: absolute;
+    color: white;
+    font-size: 240px;
+    font-family: "bebas Neue";
+    margin-left: 60%;
+    margin-top: -5%;
+    top: 45%;
+}
+#main>h5{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 59%;
+    margin-top: -4%;
+}
+#main>video{
+    height: 101%;
+    /* border: 3px solid rgb(246, 0, 0); */
+    margin-left: 73.4%;
+    margin-top: -35.5%;
+}
+#butt{
+    display: flex;
+    margin-top: -145px;
+    margin-left: 105px;
+    width: 15%;
+    color: white;
+}
+#butt button{
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(253, 253, 253, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+
+}
+#butt button>i{
+    font-size: 20px;
+    color: rgb(255, 115, 0);
+}
+#butt>h5{
+    color: rgb(157, 148, 148);
+    font-size: 18px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+
+@media only screen and(max-width:500px){
+    #main{
+        height: 100%;
+        width: 100%;
+    }
+    #main #nav{
+        flex-direction: column;
+    }
+    #main>video{
+        width: 100%;
+        height: auto;
+    }
+    #main h1{
+
+    }
+}
